@@ -1,0 +1,17 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajohan/Weather"
+  },
+  "main": "app.js",
+  "scripts": {},
+  "author": "Raymond Johannessen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "yargs": "^12.0.1"
+  }
+}
