@@ -31,8 +31,8 @@ cd weather && npm install
 ### Setup
 You will have to add a Google maps API key and a Dark Sky API key
 ```
-Google: node app.js googleKey -k "Your key"
-Dark sky: node app.js darkSkyKey -k "Your key"
+Google: node app.js google-key -k "Your key"
+Dark sky: node app.js darksky-key -k "Your key"
 ```
 ### Usage
 Fetch weather for an address
