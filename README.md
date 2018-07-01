@@ -12,7 +12,7 @@ Weather: Light rain on Thursday, with high temperatures bottoming out at 24°C o
 Today
 -----
 Weather: Clear throughout the day.
-in temp: 11.58°C
+Min temp: 11.58°C
 Max temp: 26.53°C
 Wind speed: 1.23 m/s
 
