@@ -57,7 +57,7 @@ getWeather = (address, googleKey, darkSkyKey) => {
         console.log(`\nToday`);
         console.log(`-----`);
         console.log(`Weather: ${daily.summary}`);
-        console.log(`in temp: ${daily.temperatureLow}°C`);
+        console.log(`Min temp: ${daily.temperatureLow}°C`);
         console.log(`Max temp: ${daily.temperatureHigh}°C`);
         console.log(`Wind speed: ${daily.windSpeed} m/s`);
 
