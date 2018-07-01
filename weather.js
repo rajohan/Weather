@@ -29,7 +29,6 @@ const axios = require("axios");
 
 getWeather = (address, googleKey, darkSkyKey) => {
 
-    googleKey = googleKey ? `&key=${googleKey}` : "";
     let encodedAddress = encodeURIComponent(address);
     let geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}${googleKey}`;
     let formattedLocation;
