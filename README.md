@@ -35,9 +35,19 @@ Google: node app.js googleKey -k "Your key"
 Dark sky: node app.js darkSkyKey -k "Your key"
 ```
 ### Usage:
+Fetch weather for an address
 ```
-Fetch weather for an address: node app.js weather -a "address"
-Set a default address: node app.js weather-default -a "Address"
-Fetch weather for default address: node app.js weather
-Help: node app.js -h
+node app.js weather -a "address"
+```
+Set a default address
+```
+node app.js weather-default -a "Address"
+```
+Fetch weather for default address
+```
+node app.js weather
+```
+Help
+```
+node app.js -h
 ```
