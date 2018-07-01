@@ -69,8 +69,8 @@ const argv = yargs
 
 let fetchConfig = () => {
     try {
-        let notesString = fs.readFileSync("config.json");
-        return JSON.parse(notesString);
+        let configString = fs.readFileSync("config.json");
+        return JSON.parse(configString);
     } catch (e) {
         return {defaultLocation: "", googleKey: "", darkSkyKey: ""};
     }
